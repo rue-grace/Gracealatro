@@ -70,6 +70,36 @@ return {
                     " {C:attention}'I love you, All of you.{}",
                     " {C:attention}This Stick, is the Stick Of Love'{} "
                 }
+            },
+            j_grace_elkman = {
+                name = "Elkman",
+                text = {
+                    'Applies a random {C:dark_edition}Edition{} to this {C:attention}joker{}',
+                    'every hand that is played'
+                }
+            },
+            j_grace_heed = {
+                name = "Heed",
+                text = {
+                    'For every card played, {C:red}+5{} Mult, {C:green}1/#2#{} chance to',
+                    'destroy itself.',
+                    '{C:inactive}(Currently{} {C:red}#1#{} {C:inactive}Mult){}'
+                }
+            },
+            j_grace_slight = {
+                name = "Slight",
+                text = {
+                    'For every card played, {C:blue}+10{} Chips, {C:green}1/#2#{} chance to',
+                    'destroy itself.',
+                    '{C:inactive}(Currently{} {C:blue}+#3#{} {C:inactive}Chips){}'
+                }
+            },
+            j_grace_slugfish = {
+                name = "Slugfish",
+                text = {
+                    '{X:legendary,C:white}^4{} Mult, takes up 2 {C:attention}joker slots{} and',
+                    '{C:attention}-5${} when effect is triggered'
+                }
             }
         }
     },
